@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Recommendation System</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>AI Course Recommendation System</h1>
+        <p>Discover courses based on your interests</p>
+    </header>
+
+    <main>
+        <section class="preferences">
+            <h2>Select Your Interests</h2>
+            <div id="interest-options"></div>
+
+            <label for="method-select">Recommendation Method</label>
+            <select id="method-select">
+                <option value="hybrid">Hybrid Recommendation</option>
+                <option value="content">Content-Based Filtering</option>
+                <option value="popular">Popularity-Based</option>
+            </select>
+        </section>
+
+        <section>
+            <h2>Recommended Courses</h2>
+            <div id="recommendation-list" class="course-grid"></div>
+        </section>
+
+        <section>
+            <h2>Explore All Courses</h2>
+            <input id="search-input" type="search"
+                   placeholder="Search courses...">
+            <select id="category-filter">
+                <option value="all">All Categories</option>
+            </select>
+            <div id="catalog-list" class="course-grid"></div>
+            <p id="empty-state" hidden>No courses found.</p>
+        </section>
+
+        <section>
+            <h2>How It Works</h2>
+            <p>The system analyzes interests, course categories,
+               popularity and quality to rank relevant courses.</p>
+            <p>Hybrid Score = 0.60 × Content +
+               0.25 × Popularity + 0.15 × Quality</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>AI & Machine Learning Project</p>
+    </footer>
+</body>
+</html>
