@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Python for Data Science",
+    "category": "Programming",
+    "level": "Beginner",
+    "rating": 4.8,
+    "popularity": 92
+  },
+  {
+    "title": "Machine Learning Foundations",
+    "category": "AI & ML",
+    "level": "Intermediate",
+    "rating": 4.9,
+    "popularity": 87
+  },
+  {
+    "title": "Web Development",
+    "category": "Programming",
+    "level": "Beginner",
+    "rating": 4.7,
+    "popularity": 89
+  },
+  {
+    "title": "Deep Learning",
+    "category": "AI & ML",
+    "level": "Intermediate",
+    "rating": 4.8,
+    "popularity": 76
+  },
+  {
+    "title": "Data Visualization",
+    "category": "Data Science",
+    "level": "Beginner",
+    "rating": 4.5,
+    "popularity": 70
+  },
+  {
+    "title": "UI/UX Design",
+    "category": "Design",
+    "level": "Beginner",
+    "rating": 4.6,
+    "popularity": 74
+  }
+]
